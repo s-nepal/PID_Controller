@@ -6,4 +6,4 @@ The PID parameters were tuned manually using the following algorithm:
 - Once the value of P is settled, increase the value of D until the oscillations subside. Stop increasing D when further increases do not contribute toward mitigating the oscillations.
 - Once the value of P and D are settled, increase the value of I so that the vehicle follows the center line as closely as possible.
 
-Using this algorithm, the values of P, I, and D arrived at were 0.25, 0.001, and 0.01. The throttle was kept constant at 0.5. No feedback was provided for the throttle.
+Using this algorithm, the values of P, I, and D arrived at were 0.25, 0.001, and 0.01. The throttle was kept constant at 0.5. No feedback was provided for the throttle. The simulator was used with the 800x600 resolution and the fastest graphics quality.
